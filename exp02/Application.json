@@ -1,0 +1,13 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "8b1cca76-47f3-4992-b2c5-3d45d5b018f2",
+    "applicationName": "checkcheck",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "gitSubpath": "exp02",
+    "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+    "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
+    "sections": []
+  }
+]
