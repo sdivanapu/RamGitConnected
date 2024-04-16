@@ -8,6 +8,15 @@
     "gitSubpath": "exp02",
     "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
     "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "Home",
+        "icon": "Alert Filled Circle",
+        "pageDefinitionId": "d58af47d-2a92-45fc-8aa4-8bdf7fb819b3",
+        "sections": []
+      }
+    ]
   }
 ]
