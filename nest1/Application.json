@@ -8,6 +8,15 @@
     "gitSubpath": "nest1",
     "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
     "icon": "LogoIconOnlyBenchmarkingComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "newsection1",
+        "icon": "Alert Circle",
+        "pageDefinitionId": "67fcd173-b3f7-47ee-98e9-7164e33dbf5e",
+        "sections": []
+      }
+    ]
   }
 ]
