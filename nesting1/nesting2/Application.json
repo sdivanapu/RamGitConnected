@@ -8,6 +8,15 @@
     "gitSubpath": "nesting1/nesting2",
     "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
     "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "newpage2",
+        "icon": "Alert Filled Circle",
+        "pageDefinitionId": "91f84625-0f54-4d1e-a253-39e26aa876f5",
+        "sections": []
+      }
+    ]
   }
 ]
