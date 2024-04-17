@@ -1,0 +1,13 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "20d03d6a-941c-47d7-8ccf-d212ad169216",
+    "applicationName": "wrongpath",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "gitSubpath": "RamGitConnected/wrongpath",
+    "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+    "icon": "LogoIconOnlyAnalyticsComponent",
+    "sections": []
+  }
+]
