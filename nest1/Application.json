@@ -1,22 +1,13 @@
 [
   {
     "accessRoles": [],
-    "applicationId": "0f34df29-8b4b-4d00-a067-98f05b4a276e",
-    "applicationName": "Firstapp",
+    "applicationId": "9f0dbb60-f8b1-4451-9915-aa65694bd172",
+    "applicationName": "no git",
     "applicationState": "DRAFT",
     "defaultBranch": "main",
     "gitSubpath": "nest1",
     "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
-    "icon": "LogoIconOnlyBenchmarkingComponent",
-    "sections": [
-      {
-        "accessRoles": null,
-        "privileges": null,
-        "name": "newsection1",
-        "icon": "Alert Circle",
-        "pageDefinitionId": "67fcd173-b3f7-47ee-98e9-7164e33dbf5e",
-        "sections": []
-      }
-    ]
+    "icon": "LogoIconOnlyCreditAssignmentComponent",
+    "sections": []
   }
 ]
