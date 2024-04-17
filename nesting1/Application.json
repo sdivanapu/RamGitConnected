@@ -1,0 +1,13 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "cc09c21e-f07a-4079-b416-5d46eac0b2e1",
+    "applicationName": "firstnestedbranch",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "gitSubpath": "nesting1",
+    "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+    "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
+    "sections": []
+  }
+]
