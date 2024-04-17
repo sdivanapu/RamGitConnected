@@ -8,6 +8,15 @@
     "gitSubpath": "RamGitConnected/wrongpath",
     "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
     "icon": "LogoIconOnlyAnalyticsComponent",
-    "sections": []
+    "sections": [
+      {
+        "accessRoles": null,
+        "privileges": null,
+        "name": "Home",
+        "icon": "Alert Circle",
+        "pageDefinitionId": "4502a1cb-952f-4596-ad29-cb99f3dd2640",
+        "sections": []
+      }
+    ]
   }
 ]
