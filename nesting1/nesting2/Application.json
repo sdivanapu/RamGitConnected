@@ -1,0 +1,13 @@
+[
+  {
+    "accessRoles": [],
+    "applicationId": "0d2e10fa-61c7-455f-a132-390f61ac6a53",
+    "applicationName": "nestedsubpaths",
+    "applicationState": "DRAFT",
+    "defaultBranch": "main",
+    "gitSubpath": "nesting1/nesting2",
+    "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+    "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
+    "sections": []
+  }
+]
