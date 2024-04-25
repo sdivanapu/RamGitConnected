@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "b32e33ce-9b97-49e5-9395-be365087cc21",
+  "applicationName": "demoapp231",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "newsubpath",
+  "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+  "icon": "LogoIconOnlyBenchmarkingComponent",
+  "sections": []
+}
