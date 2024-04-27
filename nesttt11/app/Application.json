@@ -7,5 +7,14 @@
   "gitSubpath": "nesttt11",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
   "icon": "LogoIconOnlyConnectComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "newsection3",
+      "icon": "Alert Filled Circle",
+      "pageDefinitionId": "9536c251-bfb6-4b44-8091-efae24359ace",
+      "sections": []
+    }
+  ]
 }
