@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "77eebfe8-c6b9-47cf-995f-b2eb72b8ee66",
+  "applicationName": "newtweats",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "nesttt11",
+  "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+  "icon": "LogoIconOnlyConnectComponent",
+  "sections": []
+}
