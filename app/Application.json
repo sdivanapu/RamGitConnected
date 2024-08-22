@@ -1,0 +1,10 @@
+{
+  "accessRoles": [],
+  "applicationId": "c641cd63-da02-491b-bd48-4bb03706dfb5",
+  "applicationName": "multiSubPathsRegression",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+  "icon": "LogoIconOnlyAnalyticsComponent",
+  "sections": []
+}
