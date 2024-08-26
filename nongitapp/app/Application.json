@@ -1,0 +1,19 @@
+{
+  "applicationId" : "31859af2-7642-49ba-96b2-6006bc6486b6",
+  "applicationName" : "IRP App Sriram",
+  "sections" : [ {
+    "name" : "Setup",
+    "icon" : "Settings",
+    "pageDefinitionId" : "efda51b9-e3cd-4650-91b0-e5c4e97adb7d",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sdivanapu/RamGitConnected",
+  "defaultBranch" : "main",
+  "gitSubpath" : "nongitapp",
+  "applicationI18nFiles" : [ ]
+}
