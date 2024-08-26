@@ -1,0 +1,884 @@
+{
+  "pageDefinitionId" : "efda51b9-e3cd-4650-91b0-e5c4e97adb7d",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_334" : {
+            "type" : "button",
+            "controlId" : "87a7c2a6-de4c-4727-bc0f-6c31d93fb1a3",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "open_createmodal",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "87a7c2a6-de4c-4727-bc0f-6c31d93fb1a3",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Create Business Group",
+            "layoutSize" : null
+          },
+          "control_335" : {
+            "type" : "list",
+            "controlId" : "b913a25c-834c-42f0-9442-3d8b1bf2db20",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "refresh_list",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "b913a25c-834c-42f0-9442-3d8b1bf2db20",
+              "handlers" : [ "refresh", "reset" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "b913a25c-834c-42f0-9442-3d8b1bf2db20",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "NewBusinessGroupsList",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "name",
+              "name" : "name",
+              "headerName" : " name",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "group_currency",
+              "name" : "group_currency",
+              "headerName" : "group_currency",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "description",
+              "name" : "description",
+              "headerName" : "description(optional)",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default"
+            } ],
+            "variables" : [ ],
+            "selectedField" : "",
+            "selectedVariable" : "",
+            "multiSelectEnabled" : false
+          },
+          "control_336" : {
+            "type" : "button",
+            "controlId" : "12488018-db44-4ff7-9399-1a7c971befe2",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "open_editmodal",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "12488018-db44-4ff7-9399-1a7c971befe2",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Edit Business Group",
+            "layoutSize" : 100
+          },
+          "control_337" : {
+            "type" : "button",
+            "controlId" : "cb3d95ef-5b83-4162-bdfd-0906ba112e21",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "opendelete_modal",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "cb3d95ef-5b83-4162-bdfd-0906ba112e21",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Delete Business Group",
+            "layoutSize" : null
+          },
+          "control_338" : {
+            "type" : "modal",
+            "controlId" : "c4884bfa-73df-4bee-9821-256618d3d030",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "open_createmodal",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c4884bfa-73df-4bee-9821-256618d3d030",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c4884bfa-73df-4bee-9821-256618d3d030",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            } ],
+            "variables" : [ ],
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Business Groups",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_339" : {
+                      "type" : "input",
+                      "controlId" : "0115c4e9-c0c9-484c-90a5-e0b25d17b1af",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "name_var"
+                      } ],
+                      "labelText" : "Name",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_340" : {
+                      "type" : "dropdown",
+                      "controlId" : "d347680d-6ed0-4d34-b811-a6305812067b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "d347680d-6ed0-4d34-b811-a6305812067b",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "xc_unit_type",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "unittype_var"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "name"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "name"
+                      },
+                      "labelText" : "Group Currency",
+                      "layoutSize" : null
+                    },
+                    "control_341" : {
+                      "type" : "input",
+                      "controlId" : "25f8bf64-c7fc-479f-8f0f-5c28a8a979a4",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "description_var"
+                      } ],
+                      "labelText" : "Description(Optional)",
+                      "labelValue" : "",
+                      "isMultiLine" : true,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_342" : {
+                      "type" : "button",
+                      "controlId" : "25c8b619-2de4-4671-88ad-cd6b2859f079",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "cancel",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "25c8b619-2de4-4671-88ad-cd6b2859f079",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Cancel",
+                      "layoutSize" : null
+                    },
+                    "control_343" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "466801b8-2c1b-480e-ad66-99b373529434",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refresh_list",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "466801b8-2c1b-480e-ad66-99b373529434",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Create",
+                      "xSQL" : "Insert into $framework.NewBusinessGroupsList(name,group_currency,description) values (name_var,unittype_var,description_var);",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_344" : {
+            "type" : "modal",
+            "controlId" : "cc3f23a8-261f-47af-a089-3a8ce8e61db8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "open_editmodal",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "cc3f23a8-261f-47af-a089-3a8ce8e61db8",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "cancel",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "cc3f23a8-261f-47af-a089-3a8ce8e61db8",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            } ],
+            "variables" : [ ],
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Business Groups",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_345" : {
+                      "type" : "input",
+                      "controlId" : "2d7177d1-1bd5-4a80-ad7d-2bd2d8f5f82c",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "newname_var"
+                      } ],
+                      "labelText" : "Name",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_346" : {
+                      "type" : "dropdown",
+                      "controlId" : "39b4e799-f286-4ec2-b720-9907dd46a344",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "39b4e799-f286-4ec2-b720-9907dd46a344",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "xc_unit_type",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "newunittype_var"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "name"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "name"
+                      },
+                      "labelText" : "Group Currency",
+                      "layoutSize" : null
+                    },
+                    "control_347" : {
+                      "type" : "input",
+                      "controlId" : "515bb0ec-53ec-4615-8b6c-023177a32dd0",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "newdescription_var"
+                      } ],
+                      "labelText" : "Description(Optional)",
+                      "labelValue" : "",
+                      "isMultiLine" : true,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_348" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "48570fc5-4df3-4b1d-adc7-ac004b598fac",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refresh_list",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "48570fc5-4df3-4b1d-adc7-ac004b598fac",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Update",
+                      "xSQL" : "UPDATE $framework.NewBusinessGroupsList SET group_currency=:newunittype_var,description=:newdescription_var WHERE name=:newname_var\n",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_349" : {
+            "type" : "modal",
+            "controlId" : "44e9a127-5b56-4521-8b7b-78c6159fa269",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "opendelete_modal",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "44e9a127-5b56-4521-8b7b-78c6159fa269",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            } ],
+            "variables" : [ ],
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Delete Business Group",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_350" : {
+                      "type" : "input",
+                      "controlId" : "3f8ad48b-902d-4d95-9933-eeee7b1d9d53",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "deletename_var"
+                      } ],
+                      "labelText" : "Name",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_351" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "7d8c2e04-7b42-4893-8b30-6be5f7a2a557",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refresh_list",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "7d8c2e04-7b42-4893-8b30-6be5f7a2a557",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "xSQL" : "delete * from $framework.NewBusinessGroupsList where name=:deletename_var",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_352" : {
+            "type" : "button",
+            "controlId" : "92a533d4-7e21-4b4f-80a4-2d855f53d62e",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "openrole_modal",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "92a533d4-7e21-4b4f-80a4-2d855f53d62e",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "New Role",
+            "layoutSize" : null
+          },
+          "control_353" : {
+            "type" : "modal",
+            "controlId" : "220ce07a-aad0-4231-a568-dd4b74af288b",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "openrole_modal",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "220ce07a-aad0-4231-a568-dd4b74af288b",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            } ],
+            "variables" : [ ],
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Create Role",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_354" : {
+                      "type" : "input",
+                      "controlId" : "7ec872a5-eade-4797-a9f0-54cd0eaa21a1",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "role_var"
+                      } ],
+                      "labelText" : "Role",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_355" : {
+                      "type" : "dropdown",
+                      "controlId" : "1b6ac6a0-45e2-460e-b77b-4abe2e07bac2",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "1b6ac6a0-45e2-460e-b77b-4abe2e07bac2",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "xc_roletype",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "roletype_var"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "role_type"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "role_type"
+                      },
+                      "labelText" : "Role Type",
+                      "layoutSize" : null
+                    },
+                    "control_356" : {
+                      "type" : "input",
+                      "controlId" : "6bc946ab-69a6-4104-a388-107d6345878d",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "description1_var"
+                      } ],
+                      "labelText" : "Description ",
+                      "labelValue" : "",
+                      "isMultiLine" : true,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_357" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "b35c8254-8285-4fb8-918a-55e76fb2d1e8",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refreshrole_list",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "b35c8254-8285-4fb8-918a-55e76fb2d1e8",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Create",
+                      "xSQL" : "Insert into $framework.NewRolesList(role,role_type,description) values (role_var,roletype_var,description1_var);",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_358" : {
+            "type" : "list",
+            "controlId" : "d447e9ad-3d58-499a-b6a8-f739c46efea8",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "refreshrole_list",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d447e9ad-3d58-499a-b6a8-f739c46efea8",
+              "handlers" : [ "refresh", "reset" ],
+              "preHandlers" : [ ]
+            }, {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "d447e9ad-3d58-499a-b6a8-f739c46efea8",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "NewRolesList",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "role",
+              "name" : "role",
+              "headerName" : "role",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "role_type",
+              "name" : "role_type",
+              "headerName" : "role_type",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default"
+            }, {
+              "field" : "description",
+              "name" : "description",
+              "headerName" : "description",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default"
+            } ],
+            "variables" : [ ],
+            "selectedField" : "",
+            "selectedVariable" : ""
+          },
+          "control_359" : {
+            "type" : "button",
+            "controlId" : "ca74155d-5d49-4fc2-a2d5-352ad0169eab",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "openeditrole_modal",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ca74155d-5d49-4fc2-a2d5-352ad0169eab",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Edit Role",
+            "layoutSize" : null
+          },
+          "control_360" : {
+            "type" : "button",
+            "controlId" : "b67f05c9-37b9-4aad-9ad3-faf673b236e5",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "opendelrole_modal",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "b67f05c9-37b9-4aad-9ad3-faf673b236e5",
+              "handlers" : [ ],
+              "preHandlers" : [ ]
+            } ],
+            "controlData" : "Delete Role",
+            "layoutSize" : null
+          },
+          "control_361" : {
+            "type" : "modal",
+            "controlId" : "4ed4ccfb-96f2-4800-a346-7acb1e26d29a",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "openeditrole_modal",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "4ed4ccfb-96f2-4800-a346-7acb1e26d29a",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            } ],
+            "variables" : [ ],
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Edit Role",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_362" : {
+                      "type" : "input",
+                      "controlId" : "a6a96a5b-b513-40b7-bcf2-57143e64a906",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "newrole_var"
+                      } ],
+                      "labelText" : "Role",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    },
+                    "control_363" : {
+                      "type" : "dropdown",
+                      "controlId" : "48da6507-4c12-408d-8358-582aa602db19",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "$onModalOpen",
+                        "eventSelection" : "BIND_EVENT",
+                        "id" : "48da6507-4c12-408d-8358-582aa602db19",
+                        "handlers" : [ "refresh" ],
+                        "handlerArgs" : [ { } ],
+                        "preHandlers" : [ ],
+                        "preHandlerArgs" : [ ]
+                      } ],
+                      "datasource" : {
+                        "name" : "xc_roletype",
+                        "type" : "view",
+                        "isReadOnly" : true,
+                        "schema" : "$framework",
+                        "seriesColors" : { }
+                      },
+                      "pagination" : {
+                        "currentPage" : 1,
+                        "totalItems" : null,
+                        "itemsPerPage" : 200
+                      },
+                      "columns" : [ ],
+                      "variables" : [ {
+                        "name" : "newroletype_var"
+                      } ],
+                      "isMultiSelect" : false,
+                      "shouldHideLabel" : false,
+                      "displayField" : {
+                        "dataType" : "string",
+                        "name" : "role_type"
+                      },
+                      "valueField" : {
+                        "dataType" : "string",
+                        "name" : "role_type"
+                      },
+                      "labelText" : "Role Type",
+                      "layoutSize" : null
+                    },
+                    "control_364" : {
+                      "type" : "input",
+                      "controlId" : "8b77a61e-3f19-40ad-8e81-4b92ddad2ba1",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "newdescription1_var"
+                      } ],
+                      "labelText" : "Description(Optional)",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_365" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "a0ec2a4b-d0e3-4a77-a2b2-3f954dd8a69b",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refreshrole_list",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "a0ec2a4b-d0e3-4a77-a2b2-3f954dd8a69b",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Update",
+                      "xSQL" : "UPDATE $framework.NewRolesList SET role_type=:newroletype_var,description=:newdescription1_var WHERE role=:newrole_var\n",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          },
+          "control_366" : {
+            "type" : "modal",
+            "controlId" : "100282db-8d99-4b0a-8471-b3bcd934d389",
+            "accessRoles" : null,
+            "events" : [ {
+              "name" : "opendelrole_modal",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "100282db-8d99-4b0a-8471-b3bcd934d389",
+              "handlers" : [ "toggle" ],
+              "preHandlers" : [ ]
+            } ],
+            "variables" : [ ],
+            "hasHeader" : true,
+            "hasFooter" : true,
+            "modalHeaderMessage" : "Delete Role",
+            "pageSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_367" : {
+                      "type" : "input",
+                      "controlId" : "e61ee3c7-aa8b-4dfc-8fbb-cff5a0402195",
+                      "accessRoles" : null,
+                      "events" : [ ],
+                      "variables" : [ {
+                        "name" : "delrole_var"
+                      } ],
+                      "labelText" : "Role",
+                      "labelValue" : "",
+                      "isMultiLine" : false,
+                      "isDisabled" : false,
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "footerSchema" : {
+              "properties" : { },
+              "controlSchema" : {
+                "schema" : {
+                  "type" : "object",
+                  "properties" : {
+                    "control_368" : {
+                      "type" : "xSQLButton",
+                      "controlId" : "80196d77-3c78-4ede-bbf6-02c1aa98cc70",
+                      "accessRoles" : null,
+                      "events" : [ {
+                        "name" : "refreshrole_list",
+                        "eventSelection" : "CREATE_EVENT",
+                        "id" : "80196d77-3c78-4ede-bbf6-02c1aa98cc70",
+                        "handlers" : [ ],
+                        "preHandlers" : [ ]
+                      } ],
+                      "controlData" : "Delete",
+                      "xSQL" : "delete * from $framework.NewRolesList where role=:delrole_var",
+                      "layoutSize" : null
+                    }
+                  }
+                }
+              }
+            },
+            "innerCanvasMappings" : {
+              "pageSchema" : "appElements",
+              "footerSchema" : "footerElements"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title" : "Business ",
+  "versionName" : "1.0"
+}
