@@ -1,0 +1,20 @@
+{
+  "applicationId" : "30f5615e-0200-49ac-8ff9-aaee71479bd4",
+  "applicationName" : "newapp",
+  "icon" : "LogoIconOnlyCommissionExpenseAccountingComponent",
+  "sections" : [ {
+    "name" : "newsection",
+    "icon" : "Alert Circle",
+    "pageDefinitionId" : "6a62e2ba-e58a-4e8d-863f-b90743285d85",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sdivanapu/RamGitConnected",
+  "defaultBranch" : "main",
+  "gitSubpath" : "newbranch",
+  "applicationI18nFiles" : [ ]
+}
