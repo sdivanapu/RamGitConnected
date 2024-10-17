@@ -7,5 +7,14 @@
   "gitSubpath": "checkvalid",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
   "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "newsection",
+      "icon": "Address Book",
+      "pageDefinitionId": "9c41faba-762c-4bb7-b0b5-15e4573d1191",
+      "sections": []
+    }
+  ]
 }
