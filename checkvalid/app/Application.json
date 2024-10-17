@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "57193033-7977-4652-81ed-5185216e77f4",
+  "applicationName": "gittest",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "checkvalid",
+  "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+  "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
+  "sections": []
+}
