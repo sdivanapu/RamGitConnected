@@ -1,10 +1,10 @@
 {
   "accessRoles": [],
-  "applicationId": "c641cd63-da02-491b-bd48-4bb03706dfb5",
-  "applicationName": "multiSubPathsRegression",
+  "applicationId": "480ab03c-7226-4d1f-b04c-e600084ad6e6",
+  "applicationName": "checkcheckgit",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
-  "icon": "LogoIconOnlyAnalyticsComponent",
+  "icon": "LogoIconOnlyCreditAssignmentComponent",
   "sections": []
 }
