@@ -6,7 +6,25 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "checkbox",
+            "controlId": "e9ee1e6d-65af-45b6-a6e6-50423cdd1f7d",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "variables": [],
+            "displayField": null,
+            "valueField": false,
+            "layoutSize": null,
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },
