@@ -1,20 +1,10 @@
 {
   "accessRoles": [],
-  "applicationId": "480ab03c-7226-4d1f-b04c-e600084ad6e6",
-  "applicationName": "checkcheckgit",
+  "applicationId": "7fa98fad-42ad-4a69-8027-44479d8e4284",
+  "applicationName": "checkcheck1",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
-  "icon": "LogoIconOnlyCreditAssignmentComponent",
-  "sections": [
-    {
-      "isComposite": false,
-      "accessRoles": null,
-      "privileges": null,
-      "name": "newsection3",
-      "icon": "Alert Triangle",
-      "pageDefinitionId": "3e6d209d-f1af-4e4f-83e1-c2fe0572c7e4",
-      "sections": []
-    }
-  ]
+  "icon": "LogoIconOnlyBenchmarkingComponent",
+  "sections": []
 }
