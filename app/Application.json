@@ -6,5 +6,15 @@
   "defaultBranch": "main",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
   "icon": "LogoIconOnlyBenchmarkingComponent",
-  "sections": []
+  "sections": [
+    {
+      "isComposite": false,
+      "accessRoles": null,
+      "privileges": null,
+      "name": "newsection3",
+      "icon": "Alert Filled Circle",
+      "pageDefinitionId": "c0f9eb36-744b-4c00-b296-440cee20a7aa",
+      "sections": []
+    }
+  ]
 }
