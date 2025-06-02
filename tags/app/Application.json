@@ -1,21 +1,29 @@
 {
-  "applicationId" : "f1c905c7-30b3-4b3b-a1eb-630c7684468e",
-  "applicationName" : "checkcheck",
-  "icon" : "LogoIconOnlyConnectComponent",
-  "sections" : [ {
-    "name" : "newsection",
-    "icon" : "Alert Circle",
-    "pageDefinitionId" : "d3c29848-709d-4b9d-bf6e-c6ed673c692e",
-    "description" : "",
-    "sections" : [ ],
-    "accessRoles" : null,
-    "privileges" : null
-  } ],
-  "accessRoles" : [ ],
-  "tagIds" : [ "0238fa5f-437c-43c5-ba0e-8026935375db", "886ae615-7ee4-460a-9812-e45cca9f4b2b", "99f59cdc-f443-4463-8618-929567064a4b", "bc6defcb-a686-451f-8803-2fd846e7a5t", "bc6defcb-a686-451f-8803-2fd846e7a67e" ],
-  "applicationState" : "DRAFT",
-  "gitUrl" : "https://github.com/sdivanapu/RamGitConnected",
-  "defaultBranch" : "main",
-  "gitSubpath" : "tags",
-  "applicationI18nFiles" : [ ]
+  "accessRoles": [],
+  "applicationId": "f1c905c7-30b3-4b3b-a1eb-630c7684468e",
+  "applicationName": "checkcheck",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "tags",
+  "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+  "icon": "LogoIconOnlyConnectComponent",
+  "sections": [
+    {
+      "name": "newsection",
+      "icon": "Alert Circle",
+      "pageDefinitionId": "d3c29848-709d-4b9d-bf6e-c6ed673c692e",
+      "description": "",
+      "sections": [],
+      "accessRoles": null,
+      "privileges": null,
+      "tagIds": null
+    }
+  ],
+  "tagIds": [
+    "0238fa5f-437c-43c5-ba0e-8026935375db",
+    "886ae615-7ee4-460a-9812-e45cca9f4b2b",
+    "99f59cdc-f443-4463-8618-929567064a4b",
+    "bc6defcb-a686-451f-8803-2fd846e7a5t",
+    "bc6defcb-a686-451f-8803-2fd846e7a67e"
+  ]
 }
