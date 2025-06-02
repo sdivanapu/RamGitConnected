@@ -1,0 +1,16 @@
+{
+  "id": "entec6e6c9f986956aabb87c6d4cd20e",
+  "schemaName": "xactly",
+  "tableName": "xc_title_category",
+  "columns": [],
+  "overwrite": false,
+  "unlogged": false,
+  "archive": false,
+  "local": false,
+  "temporary": false,
+  "preserveRows": false,
+  "selectionSet": false,
+  "using": "Incent(TableName='Incent.XC_TITLE_CATEGORY');",
+  "audited": false,
+  "effectiveDated": false
+}

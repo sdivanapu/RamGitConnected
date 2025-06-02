@@ -1,10 +1,27 @@
 {
-  "application" : "app/Application.json",
-  "queries" : null,
-  "workflows" : null,
-  "pageDefinitions" : [ "app/d3c29848-709d-4b9d-bf6e-c6ed673c692e.json" ],
-  "policySets" : null,
-  "tables" : null,
-  "compositeComponents" : [ ],
-  "applicationTags" : null
+  "application": "app/Application.json",
+  "queries": [
+    "queries/$framework/getTitleCategories.json"
+  ],
+  "workflows": [
+    "workflows/do_nothing.json"
+  ],
+  "pageDefinitions": [
+    "app/d3c29848-709d-4b9d-bf6e-c6ed673c692e.json"
+  ],
+  "tables": {
+    "schemas": [
+      "tables/schemas/$framework/blobTable.json",
+      "tables/schemas/$framework/demo_todos_table.json",
+      "tables/schemas/xactly/xc_title_category.json"
+    ]
+  },
+  "compositeComponents": [],
+  "applicationTags": [
+    "tags/my tag.json",
+    "tags/testTag1.json",
+    "tags/testTag2.json",
+    "tags/testTag4.json",
+    "tags/testTag5.json"
+  ]
 }

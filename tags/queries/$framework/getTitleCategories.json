@@ -1,0 +1,7 @@
+{
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "getTitleCategories",
+  "schemaName": "$framework",
+  "xsql": "Select * From xactly.xc_title_category Limit 5000;"
+}

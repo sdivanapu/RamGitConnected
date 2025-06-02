@@ -1,0 +1,82 @@
+{
+  "id": "ent8d486c2f8c9f45c9e00016a9846b2",
+  "schemaName": "$framework",
+  "tableName": "blobTable",
+  "externalTableName": "biz_5980___framework__blobTable__2068745750Z",
+  "columns": [
+    {
+      "name": "name",
+      "index": 0,
+      "primaryOrdinal": 0,
+      "externalIndex": 0,
+      "flex": false,
+      "systemColumn": false,
+      "rowsMetadata": false,
+      "pivotColumn": false,
+      "pivotRow": false,
+      "mathematicalFunction": false,
+      "escapedExternalName": "name",
+      "ordered": 0,
+      "nameEscaped": false,
+      "aggregate": false,
+      "externalNameOnly": "name",
+      "deleted": false,
+      "dataType": {
+        "type": "STRING",
+        "size": 0,
+        "scale": 0,
+        "identitySeed": 0,
+        "identityIncrement": 0,
+        "identity": false,
+        "max": false
+      },
+      "externalName": "name",
+      "nullable": true,
+      "escapedName": "name"
+    },
+    {
+      "name": "blobCol",
+      "index": 7,
+      "primaryOrdinal": 0,
+      "externalIndex": 0,
+      "flex": false,
+      "systemColumn": false,
+      "rowsMetadata": false,
+      "pivotColumn": false,
+      "pivotRow": false,
+      "mathematicalFunction": false,
+      "escapedExternalName": "blobCol",
+      "ordered": 0,
+      "nameEscaped": false,
+      "aggregate": false,
+      "externalNameOnly": "blobCol",
+      "deleted": false,
+      "dataType": {
+        "type": "BLOB",
+        "size": 0,
+        "scale": 0,
+        "identitySeed": 0,
+        "identityIncrement": 0,
+        "identity": false,
+        "max": false
+      },
+      "externalName": "blobCol",
+      "nullable": true,
+      "createdInstant": "2025-04-10T03:34:33.546Z",
+      "escapedName": "blobCol"
+    }
+  ],
+  "constraints": [],
+  "overwrite": false,
+  "unlogged": false,
+  "archive": false,
+  "local": false,
+  "temporary": false,
+  "preserveRows": false,
+  "selectionSet": false,
+  "audited": true,
+  "effectiveDated": false,
+  "attributes": {
+    "visible": "true"
+  }
+}
