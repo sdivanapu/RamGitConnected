@@ -1,10 +1,7 @@
 {
-  "application" : "app/Application.json",
-  "queries" : null,
-  "workflows" : null,
-  "pageDefinitions" : [ "app/0dd137c0-cf34-4dc5-8e78-232d42e6decc.json" ],
-  "policySets" : null,
-  "tables" : null,
-  "compositeComponents" : [ ],
-  "applicationTags" : null
+  "application": "app/Application.json",
+  "pageDefinitions": [
+    "app/0dd137c0-cf34-4dc5-8e78-232d42e6decc.json"
+  ],
+  "compositeComponents": []
 }
