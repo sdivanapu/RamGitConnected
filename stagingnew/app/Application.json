@@ -1,22 +1,26 @@
 {
-  "applicationId" : "be387b28-7a95-4ac9-890a-4d75d68a4733",
-  "applicationName" : "checkcheck",
-  "icon" : "LogoIconOnlyBenchmarkingComponent",
-  "sections" : [ {
-    "name" : "Section1",
-    "icon" : "Alert Filled Circle",
-    "pageDefinitionId" : "28a1e90c-6baa-4ad2-9e55-234f76ee58be",
-    "description" : "",
-    "sections" : [ ],
-    "accessRoles" : null,
-    "privileges" : null,
-    "isReferredPage" : false
-  } ],
-  "accessRoles" : [ ],
-  "tagIds" : [ "7ea14c90-6572-4eca-ac00-0d928d2230d1" ],
-  "applicationState" : "DRAFT",
-  "gitUrl" : "https://github.com/sdivanapu/RamGitConnected",
-  "defaultBranch" : "main",
-  "gitSubpath" : "stagingnew",
-  "applicationI18nFiles" : [ ]
+  "accessRoles": [],
+  "applicationId": "be387b28-7a95-4ac9-890a-4d75d68a4733",
+  "applicationName": "checkcheck",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "stagingnew",
+  "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
+  "icon": "LogoIconOnlyBenchmarkingComponent",
+  "sections": [
+    {
+      "name": "Section1",
+      "icon": "Alert Filled Circle",
+      "pageDefinitionId": "28a1e90c-6baa-4ad2-9e55-234f76ee58be",
+      "description": "",
+      "sections": [],
+      "accessRoles": null,
+      "privileges": null,
+      "isReferredPage": false,
+      "tagIds": null
+    }
+  ],
+  "tagIds": [
+    "7ea14c90-6572-4eca-ac00-0d928d2230d1"
+  ]
 }
