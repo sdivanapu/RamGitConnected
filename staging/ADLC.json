@@ -3,5 +3,8 @@
   "pageDefinitions": [
     "app/0dd137c0-cf34-4dc5-8e78-232d42e6decc.json"
   ],
-  "compositeComponents": []
+  "compositeComponents": [],
+  "applicationTags": [
+    "tags/7ea14c90-6572-4eca-ac00-0d928d2230d1.json"
+  ]
 }
