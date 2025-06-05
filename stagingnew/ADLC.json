@@ -10,8 +10,5 @@
   "pageDefinitions": [
     "app/28a1e90c-6baa-4ad2-9e55-234f76ee58be.json"
   ],
-  "compositeComponents": [],
-  "applicationTags": [
-    "tags/7ea14c90-6572-4eca-ac00-0d928d2230d1.json"
-  ]
+  "compositeComponents": []
 }
