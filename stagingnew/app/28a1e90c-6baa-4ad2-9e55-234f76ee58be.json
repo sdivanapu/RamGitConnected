@@ -1,0 +1,618 @@
+{
+  "pageDefinitionId" : "28a1e90c-6baa-4ad2-9e55-234f76ee58be",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1" : {
+            "type" : "variableConfigurator",
+            "controlId" : "f6d9dcb1-30ed-404d-8017-4216e126eb17",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "f6d9dcb1-30ed-404d-8017-4216e126eb17",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_grid",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "f6d9dcb1-30ed-404d-8017-4216e126eb17",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "selected_directory"
+            }, {
+              "name" : "original_directory"
+            } ],
+            "valueField" : {
+              "dataType" : null,
+              "name" : null
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Original Directory Variable Configurator",
+            "staticValue" : "$framework",
+            "useStaticValue" : true,
+            "staticDataType" : "STRING",
+            "controlKey" : "control_1"
+          },
+          "control_10" : {
+            "type" : "variableConfigurator",
+            "controlId" : "c2be11d8-dacc-4f3e-8694-5afd0c77a8c8",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "original_path_saved",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c2be11d8-dacc-4f3e-8694-5afd0c77a8c8",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_grid",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c2be11d8-dacc-4f3e-8694-5afd0c77a8c8",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "sb_set_new_path",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "selected_directory"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "file_path"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Selected Directory Variable Configurator",
+            "staticValue" : "",
+            "useStaticValue" : false,
+            "staticDataType" : null,
+            "controlKey" : "control_10"
+          },
+          "control_15" : {
+            "type" : "variableConfigurator",
+            "controlId" : "ed50aa31-3261-45bc-87fe-a6e354f74593",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "dive_directory",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "ed50aa31-3261-45bc-87fe-a6e354f74593",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "original_path_saved",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "ed50aa31-3261-45bc-87fe-a6e354f74593",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "sb_set_original_directory",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "original_directory"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "file_path"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Original Directory Variable Configurator",
+            "staticValue" : "",
+            "useStaticValue" : false,
+            "staticDataType" : null,
+            "controlKey" : "control_15"
+          },
+          "control_12" : {
+            "type" : "variableConfigurator",
+            "controlId" : "382f7627-14f1-4467-b348-f3da4efa1da4",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "trigger_download",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "382f7627-14f1-4467-b348-f3da4efa1da4",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "trigger_file_download_path_set",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "382f7627-14f1-4467-b348-f3da4efa1da4",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "sb_set_new_path",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "selected_download_path"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "file_path"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Download Path Variable Configurator",
+            "staticValue" : "",
+            "useStaticValue" : false,
+            "staticDataType" : null,
+            "controlKey" : "control_12"
+          },
+          "control_11" : {
+            "type" : "XDownloadSFTP",
+            "controlId" : "b3e56baf-606f-4403-b1c6-4e25ceb243cf",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "layoutSize" : null,
+            "title" : "Download SFTP",
+            "variables" : [ {
+              "name" : "selected_download_path"
+            } ],
+            "events" : [ {
+              "name" : "trigger_file_download_path_set",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "b3e56baf-606f-4403-b1c6-4e25ceb243cf",
+              "handlers" : [ "assignCurrentVariable", "downloadFileSftp" ],
+              "handlerArgs" : [ { }, { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "whereClauseVariable" : null,
+            "controlKey" : "control_11"
+          },
+          "control_14" : {
+            "type" : "variableConfigurator",
+            "controlId" : "6c76aa03-b1ce-47e9-8774-78b239a9ff76",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "trigger_back",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "6c76aa03-b1ce-47e9-8774-78b239a9ff76",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_grid",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "6c76aa03-b1ce-47e9-8774-78b239a9ff76",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "sb_set_back_path",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "selected_directory"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "file_path"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Back Variable Configurator",
+            "staticValue" : "",
+            "useStaticValue" : false,
+            "staticDataType" : "STRING",
+            "controlKey" : "control_14"
+          },
+          "control_16" : {
+            "type" : "variableConfigurator",
+            "controlId" : "fa54d6de-d027-479f-8f78-bb6291e355e9",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "trigger_back",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "fa54d6de-d027-479f-8f78-bb6291e355e9",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "refresh_grid",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "fa54d6de-d027-479f-8f78-bb6291e355e9",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "sb_set_back_original_path",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "original_directory"
+            } ],
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "file_path"
+            },
+            "usingMultiSelectVariableFormat" : false,
+            "title" : "Back Fix Original Variable Configurator",
+            "staticValue" : "",
+            "useStaticValue" : false,
+            "staticDataType" : "STRING",
+            "controlKey" : "control_16"
+          },
+          "control_13" : {
+            "type" : "button",
+            "controlId" : "c0276d49-5401-4d46-b64b-c6ea9e4930a3",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "trigger_back",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "c0276d49-5401-4d46-b64b-c6ea9e4930a3",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Back",
+            "layoutSize" : null,
+            "buttonColorType" : "primary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_13"
+          },
+          "control_2" : {
+            "type" : "table",
+            "controlId" : "5b92f7db-b18c-4e56-aa17-73a7c44cb645",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "refresh_grid",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5b92f7db-b18c-4e56-aa17-73a7c44cb645",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "dive_directory",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "5b92f7db-b18c-4e56-aa17-73a7c44cb645",
+              "broadcastArgs" : {
+                "validationXsql" : ":v_is_directory = true",
+                "validationLogic" : [ ]
+              },
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "trigger_download",
+              "eventSelection" : "CREATE_EVENT",
+              "id" : "5b92f7db-b18c-4e56-aa17-73a7c44cb645",
+              "broadcastArgs" : {
+                "validationXsql" : ":v_is_file = true",
+                "validationLogic" : [ ]
+              },
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "sb_show_dir_list",
+              "type" : "view",
+              "isReadOnly" : true,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "name",
+              "name" : "name",
+              "headerName" : "name",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "parent",
+              "name" : "parent",
+              "headerName" : "parent",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "is_file",
+              "name" : "is_file",
+              "headerName" : "is_file",
+              "dataType" : "boolean",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "is_directory",
+              "name" : "is_directory",
+              "headerName" : "is_directory",
+              "dataType" : "boolean",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "size",
+              "name" : "size",
+              "headerName" : "size",
+              "dataType" : "long",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "owner",
+              "name" : "owner",
+              "headerName" : "owner",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "created_instant",
+              "name" : "created_instant",
+              "headerName" : "created_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "accessed_instant",
+              "name" : "accessed_instant",
+              "headerName" : "accessed_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "modified_instant",
+              "name" : "modified_instant",
+              "headerName" : "modified_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ {
+              "name" : "v_name",
+              "boundToField" : "name"
+            }, {
+              "name" : "v_parent",
+              "boundToField" : "parent"
+            }, {
+              "name" : "v_is_file",
+              "boundToField" : "is_file"
+            }, {
+              "name" : "v_is_directory",
+              "boundToField" : "is_directory"
+            }, {
+              "name" : "v_size",
+              "boundToField" : "size"
+            }, {
+              "name" : "v_owner",
+              "boundToField" : "owner"
+            }, {
+              "name" : "v_created_instant",
+              "boundToField" : "created_instant"
+            }, {
+              "name" : "v_accessed_instant",
+              "boundToField" : "accessed_instant"
+            }, {
+              "name" : "v_modified_instant",
+              "boundToField" : "modified_instant"
+            } ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false,
+            "controlKey" : "control_2"
+          }
+        }
+      }
+    }
+  },
+  "title" : "SFTP Browser",
+  "versionName" : "1.0"
+}
