@@ -1,0 +1,30 @@
+{
+  "applicationId" : "50eb3a6e-506f-42ec-a0fd-1f16b417a072",
+  "applicationName" : "Some App",
+  "icon" : "LogoIconOnlyBenchmarkingComponent",
+  "sections" : [ {
+    "name" : "Home",
+    "icon" : "Alert Triangle",
+    "pageDefinitionId" : "0dd137c0-cf34-4dc5-8e78-232d42e6decc",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  }, {
+    "name" : "Home",
+    "icon" : "Alert Triangle",
+    "pageDefinitionId" : "0dd137c0-cf34-4dc5-8e78-232d42e6decc",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null,
+    "isReferredPage" : true
+  } ],
+  "accessRoles" : [ ],
+  "tagIds" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sdivanapu/RamGitConnected",
+  "defaultBranch" : "main",
+  "gitSubpath" : "staging",
+  "applicationI18nFiles" : [ ]
+}
