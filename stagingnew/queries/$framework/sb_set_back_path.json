@@ -1,0 +1,14 @@
+{
+  "variables": [
+    {
+      "name": "original_directory",
+      "value": "import",
+      "dataType": "String"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "sb_set_back_path",
+  "schemaName": "$framework",
+  "xsql": "select :original_directory file_path"
+}

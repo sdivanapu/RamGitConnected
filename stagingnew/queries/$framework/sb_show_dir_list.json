@@ -1,0 +1,14 @@
+{
+  "variables": [
+    {
+      "name": "selected_directory",
+      "value": "$framework",
+      "dataType": "String"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "sb_show_dir_list",
+  "schemaName": "$framework",
+  "xsql": "select \nToString(dr.is_file) is_file,\ndr.* \nfrom DirList(Directory=:selected_directory) dr "
+}

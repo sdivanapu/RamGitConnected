@@ -1,0 +1,19 @@
+{
+  "variables": [
+    {
+      "name": "v_name",
+      "value": "import",
+      "dataType": "String"
+    },
+    {
+      "name": "v_parent",
+      "value": "$framework",
+      "dataType": "String"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "sb_set_new_path",
+  "schemaName": "$framework",
+  "xsql": "select Concat(:v_parent, '/', :v_name) file_path"
+}

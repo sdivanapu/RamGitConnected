@@ -1,0 +1,14 @@
+{
+  "variables": [
+    {
+      "name": "selected_directory",
+      "value": "asdssda",
+      "dataType": "String"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "sb_set_original_directory",
+  "schemaName": "$framework",
+  "xsql": "select :selected_directory file_path"
+}

@@ -1,0 +1,14 @@
+{
+  "variables": [
+    {
+      "name": "v_parent",
+      "value": "asdadds",
+      "dataType": "String"
+    }
+  ],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "sb_set_back_original_path",
+  "schemaName": "$framework",
+  "xsql": "select :v_parent file_path"
+}
