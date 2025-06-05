@@ -1,0 +1,442 @@
+{
+  "pageDefinitionId" : "0dd137c0-cf34-4dc5-8e78-232d42e6decc",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1" : {
+            "type" : "button",
+            "controlId" : "uuid-for-show-button",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "show_event",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "uuid-for-show-button",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Show",
+            "layoutSize" : null,
+            "buttonColorType" : "primary",
+            "icon" : "",
+            "iconPosition" : "",
+            "shouldRenderHidden" : false
+          },
+          "control_2" : {
+            "type" : "button",
+            "controlId" : "uuid-for-hide-button",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "hide_event",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "uuid-for-hide-button",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Hide",
+            "layoutSize" : null,
+            "buttonColorType" : "primary",
+            "icon" : "",
+            "iconPosition" : "",
+            "shouldRenderHidden" : false
+          },
+          "control_5" : {
+            "type" : "chart",
+            "controlId" : "12c00efa-5b01-4ab1-a550-034c32fcf593",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "12c00efa-5b01-4ab1-a550-034c32fcf593",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "line",
+            "title" : "",
+            "subtitle" : "",
+            "xAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "yAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : null,
+            "yAxisFields" : [ ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_9" : {
+            "type" : "chart",
+            "controlId" : "2d46ab38-cd0d-4b27-a239-e4486c676abc",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "2d46ab38-cd0d-4b27-a239-e4486c676abc",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "line",
+            "title" : "",
+            "subtitle" : "",
+            "xAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "yAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : null,
+            "yAxisFields" : [ ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_8" : {
+            "type" : "chart",
+            "controlId" : "603afe18-6dc4-4252-bb85-b00a6e10a06f",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "603afe18-6dc4-4252-bb85-b00a6e10a06f",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "line",
+            "title" : "",
+            "subtitle" : "",
+            "xAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "yAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : null,
+            "yAxisFields" : [ ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_7" : {
+            "type" : "chart",
+            "controlId" : "c8111779-70b3-4f0e-9d55-ecf175e90846",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "c8111779-70b3-4f0e-9d55-ecf175e90846",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "line",
+            "title" : "",
+            "subtitle" : "",
+            "xAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "yAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : null,
+            "yAxisFields" : [ ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_6" : {
+            "type" : "chart",
+            "controlId" : "778c83ab-ff6d-49fc-8540-031bbeef3fb2",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "778c83ab-ff6d-49fc-8540-031bbeef3fb2",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : null,
+              "schema" : null,
+              "fields" : null,
+              "type" : null,
+              "isReadOnly" : false,
+              "columns" : null,
+              "seriesColors" : { },
+              "customLabels" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "chartType" : "line",
+            "title" : "",
+            "subtitle" : "",
+            "xAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "yAxis" : {
+              "type" : "",
+              "title" : {
+                "text" : ""
+              }
+            },
+            "ref" : { },
+            "xAxisField" : null,
+            "yAxisFields" : [ ],
+            "layoutSize" : null,
+            "titleAlignment" : "left",
+            "subtitleAlignment" : "left",
+            "helpIconValue" : null,
+            "helpIconPosition" : "alignLeft",
+            "helpIconTooltipPosition" : "right",
+            "shouldRenderHidden" : false
+          },
+          "control_4" : {
+            "type" : "checkbox",
+            "controlId" : "35519972-36f8-41e6-9eab-517a8543ba35",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ ],
+            "variables" : [ ],
+            "displayField" : null,
+            "valueField" : false,
+            "layoutSize" : null,
+            "shouldRenderHidden" : false
+          },
+          "control_3" : {
+            "type" : "input",
+            "controlId" : "uuid-for-input-component",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "show_event",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "uuid-for-input-component",
+              "handlers" : [ "show" ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            }, {
+              "name" : "hide_event",
+              "eventSelection" : "BIND_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "uuid-for-input-component",
+              "handlers" : [ "hide" ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "variables" : [ ],
+            "labelText" : "",
+            "labelValue" : "",
+            "isMultiLine" : false,
+            "isDisabled" : false,
+            "layoutSize" : null,
+            "useEnterBroadcast" : false,
+            "shouldRenderHidden" : true
+          }
+        }
+      }
+    }
+  },
+  "title" : "Home",
+  "versionName" : "1.0"
+}
