@@ -1,0 +1,13 @@
+{
+  "applicationId" : "f8b49a81-32ae-475f-ac28-b88fcaf8091b",
+  "applicationName" : "testApp_718",
+  "icon" : "Dashboard",
+  "sections" : [ ],
+  "accessRoles" : [ ],
+  "tagIds" : [ "03f8e9ab-1ad6-44a4-bc3a-a944320dd75e", "3fe7109e-4012-4a80-9e49-6b5424a87cae", "85e5bb84-abed-4e84-acaa-e727d1b96dfe", "8cd16ecf-b115-4e56-8838-7a519c46014e" ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sdivanapu/RamGitConnected",
+  "defaultBranch" : "main",
+  "gitSubpath" : "tagstest",
+  "applicationI18nFiles" : [ ]
+}
