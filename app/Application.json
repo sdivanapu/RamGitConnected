@@ -1,20 +1,11 @@
 {
   "accessRoles": [],
-  "applicationId": "7fa98fad-42ad-4a69-8027-44479d8e4284",
-  "applicationName": "checkcheck1",
+  "applicationId": "f9604fff-d918-4ab7-9912-90d33717dd3a",
+  "applicationName": "testgitapponce",
   "applicationState": "DRAFT",
-  "defaultBranch": "main",
+  "defaultBranch": "testimport",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
-  "icon": "LogoIconOnlyBenchmarkingComponent",
-  "sections": [
-    {
-      "isComposite": false,
-      "accessRoles": null,
-      "privileges": null,
-      "name": "newsection3",
-      "icon": "Alert Filled Circle",
-      "pageDefinitionId": "c0f9eb36-744b-4c00-b296-440cee20a7aa",
-      "sections": []
-    }
-  ]
+  "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "sections": [],
+  "tagIds": []
 }
