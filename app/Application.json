@@ -6,6 +6,15 @@
   "defaultBranch": "testimport",
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
   "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
-  "sections": [],
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "Settings",
+      "icon": "Alert Filled Circle",
+      "pageDefinitionId": "5289e95e-eca7-4077-97e2-9d9e72c76023",
+      "sections": []
+    }
+  ],
   "tagIds": []
 }
