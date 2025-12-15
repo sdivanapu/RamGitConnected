@@ -2,10 +2,12 @@
   "accessRoles": [],
   "applicationId": "f9604fff-d918-4ab7-9912-90d33717dd3a",
   "applicationName": "testgitapponce",
-  "applicationState": "DRAFT",
+  "applicationState": "PUBLISHED",
   "defaultBranch": "testimport",
+  "gitSubpath": null,
   "gitUrl": "https://github.com/sdivanapu/RamGitConnected",
   "icon": "LogoIconOnlyAdvancedQuotaPlanningComponent",
+  "mainBranch": null,
   "sections": [
     {
       "accessRoles": null,
